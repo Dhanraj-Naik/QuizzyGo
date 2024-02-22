@@ -23,6 +23,11 @@ platform :android do
         #   build_type: 'Release'
         # )
         gradle(task: "clean assembleRelease", project_dir: 'android/')
+        gradle(task: 'assemble', build_type: 'Release', project_dir: 'android/')
+        upload_to_play_store(
+            track: 'rollout',
+            rollout: '0.5'
+        ) # Uploads the APK built in the gradle step above and releases it to all production users
     end
 
     desc 'Upload APK on Play Store.'
