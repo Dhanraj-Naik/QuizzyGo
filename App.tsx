@@ -18,6 +18,14 @@ import {
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
+/*
+OR
+type SectionProps = {
+    title: string;
+} & {
+    children?: React.ReactNode;
+}
+*/
 
 function Section({ children, title }: SectionProps): React.JSX.Element {
   return (
