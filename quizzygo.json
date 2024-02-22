@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "quizzygo-415111",
+  "private_key_id": "4bc7e4823ce6b253c972b02e1d4ef919f2655a31",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDeKS9UKbFDW9Qr\nD8RmAnjqLSVS+WPhcNG25OwUhJL88dhg0HitY76dle37OS1yqAdhWDEEKHLaNkIB\nIxG7nHzltxRGwN4VY8GBzCBKzLFKqhxe4ic/cMF0cuKPA0M7ASw90WcyfcdX9kNe\nCcp+vN1UMFaRa91Y91gKTpH5tDhkSJUeoCqxdMF0AsTYnlO0qAm8dJuIzSHK57bv\n0AtXq7eVqFLFE9dnAWcK3gx9NhVuS+KBIk0c/YDH8TazWjP3qLnJMF3T1Vrx0wir\nQEiDUFDyXMAdiFuZUGeA4uq2mD7X7TZdtREevTuM5MYqcvTTD/TAXXjTLNtU9O7D\n/hLAvfWhAgMBAAECggEAF43tTzKWcUpYrfIfhCNJ96YuuWPos5vXGFmgMDK4NOpd\nYzJnQRb8vE+LqmGvEGOBWNBVbhftyXYMPHuf4zDdyytEkpXbVhA8EYt3dwbJ2106\n4dJ/j8ngMP0HSVtystxWeP1tQBy22HwrO1q1ZgeXPdhcLVHu54JeCsW2029ItVUM\nLAu/0XAueBlJMDIP23imNvPEFpFfoyK0Yrbpi/4r8rJ1A1+qBUAcmfGuGyq9cNkm\nFtQRNvpialyIpyPUFOZHs214IGNBcTLSVjn7LT73fWKSs8BJeFk9U6gEdVhcoLyO\nKzOSb6G1t7mFyOQf8P4+KUWDODpa1tGS6rKkzbyaWwKBgQDwaL1VUbP5nl8lmXoz\nCknDG58jx3JPTbwvPf3iH/4E3W5yJDq1ElAWtiqxgI6uslq2sdu7FwFFWs4fDbcW\nCPFs0PHJAZzfhSrCjp3Gel6rsV1qOUShCvVeNeeGqZtMtYu5V9rlO6rTyhmbUqj/\nC26IoWpoEkcNBb1Kx4QtNHkuSwKBgQDskX0UXiaBkMohW0eRcGowBYsi9+t+vuJq\nVYm4E+V61ZyIrFFtwCOMo9Pw1LjqeshoQCfABQFbbvG5EOLmyhAWXIq23nAxuQWm\nXG8r6EJlQ5L1y2VzKzRrPhMO0hobj19fmDyqLO+KGbuoBLi+DRvTaIR7qVpDNEnn\n4H33u+2IQwKBgHox0qJuL9tdyyDSXNFalllsTbwi4RA8A73Ddasc9cFFR6EOlyR4\nFWsl1pd4L43OK9uWlYgHzmaRHBmeoAO8MfJMVckEX9cg2bYgRUOf6US9lyypxR9R\n8ZucLH0+8ifQUx+27xT6+f5CSDexkSJpjho2aV5Sg/izhR5gQOe1Ny73AoGBAL3c\nzlwobBMUl4VJ8xiA9lhwOojoHPLuVF0vJYa9QTHieu0eD4Rb7qwTWCgzMe3OeUVi\nKATuf3ZYhlwXd2PuzBaGUzYNNFJTwnsQOJEuqQsIvsvSYCucg0eG3FjKuvVfjhX0\n4stZoS5fFML2dybg8nIrshhlhPHm52HYRIEtLKhtAoGAQQ4XdxoUJCExg4DVCs2o\nHBKqcEI2xfV3RXL7CXR3oCFCHMR+T2m7k/m7IsFWobsC52KHyvWzJMelANtUL2On\nlqqZZaogPUVffIgTeeTZ6bsBZmXzEeT9DyUA1B94oGzcww0b0WlrEITpl/eeZ5/s\n5h+tvvAzdIjzYWw4djInOAQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "quizzygofastlanesupply@quizzygo-415111.iam.gserviceaccount.com",
+  "client_id": "114193794835996335922",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/quizzygofastlanesupply%40quizzygo-415111.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

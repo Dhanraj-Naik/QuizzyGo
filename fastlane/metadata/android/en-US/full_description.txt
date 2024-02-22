@@ -1,0 +1,1 @@
+This is a quiz app where you will get random set of 10 questions.

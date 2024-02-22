@@ -1,0 +1,2 @@
+json_key_file("./quizzygo.json")
+package_name("com.quizzygo")
