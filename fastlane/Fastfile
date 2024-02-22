@@ -28,7 +28,8 @@ platform :android do
         # )
         gradle(
             task: "clean assembleRelease", 
-            project_dir: 'android/')
+            project_dir: 'android/'
+            )
         gradle(
             task: 'bundle', 
             build_type: 'Release',
@@ -42,7 +43,7 @@ platform :android do
              )
         upload_to_play_store(
             track: 'rollout', #production
-            rollout: '0.5'
+            rollout: '0.5',
             skip_upload_metadata: true,
             skip_upload_images: true,
             skip_upload_screenshots: true
