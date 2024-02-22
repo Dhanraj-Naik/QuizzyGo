@@ -6,6 +6,10 @@ before_all do
     git_pull
 end
 
+platform :ios do 
+    #iOS Lanes
+end
+
 platform :android do 
     #Android Lanes
     desc 'Generate Android APK.'
