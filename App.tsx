@@ -14,6 +14,7 @@ import {
   Text,
   View,
 } from 'react-native';
+import Quizz from './src/screens/Quiz';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -45,11 +46,7 @@ function Section({ children, title }: SectionProps): React.JSX.Element {
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-      >
-        <Text style={styles.highlight}>App.tsx</Text>
-      </ScrollView>
+      <Quizz />
     </SafeAreaView>
   );
 }
