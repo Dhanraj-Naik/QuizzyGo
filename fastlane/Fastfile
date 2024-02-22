@@ -14,9 +14,8 @@ platform :android do
     #Android Lanes
     desc 'Generate Android APK.'
     private_lane :build do
-        increment_build_number(
-            #build_number: "75" # set a specific number
-        ) # automatically increment by one
+        increment_version_number
+
         gradle(task: 'clean', project_dir: 'android/')
         # gradle(task: 'assemble', build_type: 'Release', project_dir: 'android/') #apk
         gradle(task: 'bundle', build_type: 'Release', project_dir: 'android/') #apk
