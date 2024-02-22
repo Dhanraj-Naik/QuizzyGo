@@ -37,4 +37,12 @@ platform :android do
         git_commit(path: ['./android/gradle.properties'], message: 'Upload versionCode')
         push_to_git_remote
     end
+
+    desc 'Ship to Playstore Beta.'
+        lane :beta2 do
+        build
+        supply(track: 'beta', track_promote_to: 'beta')
+        git_commit(path: ['./android/gradle.properties'], message: 'Bump versionCode')
+        push_to_git_remote
+    end
 end
