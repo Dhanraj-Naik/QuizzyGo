@@ -13,10 +13,10 @@ end
 platform :android do 
     #Android Lanes
     desc 'Generate Android APK.'
-    # private_lane :build do
-    #     gradle(task: 'clean', project_dir: 'android/')
-    #     gradle(task: 'assemble', build_type: 'Release', project_dir: 'android/')
-    # end
+    private_lane :build do
+        gradle(task: 'clean', project_dir: 'android/')
+        gradle(task: 'assemble', build_type: 'Release', project_dir: 'android/')
+    end
     lane :playstore do
         # gradle(
         #   task: 'assemble',
